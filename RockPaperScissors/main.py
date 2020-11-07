@@ -86,10 +86,10 @@ while( playing ):
     
     computer_choice = choices[random.randint(0,2)]
 
-    print(f"Your choice was {player_choice}")
+    print(f"Your choice was {player_choice}!")
     print(displayASCIIArt(player_choice))
 
-    print(f"The computer chose {computer_choice}")
+    print(f"The computer chose {computer_choice}!")
     print(displayASCIIArt(computer_choice))
 
     print(result(player_choice, computer_choice))
