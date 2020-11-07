@@ -1,6 +1,6 @@
 import random
 
-# I realize the actual 100 days of code series doesn't have loops yet, but I wanted to incorporate whatever I could
+# I realize the actual 100 days of code series doesn't have loops or functions yet, but I wanted to incorporate whatever I could
 # The logic between choices, results, and ascii art could be a bit more refined, but.. this is just an exercise, right?
 
 rock = """
@@ -33,8 +33,6 @@ scissors = """
 choices = ["ROCK", "PAPER", "SCISSORS"]
 asciiArt = [rock, paper, scissors]
 
-print("Let's play Rock, Paper, Scissors!")
-
 def displayASCIIArt(choice):
     if (choice == "ROCK"):
         return asciiArt[0]
@@ -66,6 +64,9 @@ def result(pChoice, cChoice):
 
     elif (pChoice == "SCISSORS" and cChoice == "ROCK"):
         return "You lose!"
+
+
+print("Let's play Rock, Paper, Scissors!")
 
 playing = True
 
